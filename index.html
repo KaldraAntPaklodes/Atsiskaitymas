@@ -13,11 +13,20 @@
 <body>
     <header>
         <img src="images/logo.svg" alt="logo">
-        <nav>            
-            <div>
-                <div class="burger"></div>
-                <div class="burger"></div>
-                <div class="burger"></div>
+        <nav><div class="dropdown">
+                <button class="menuButton">            
+                    <div>
+                        <div class="burger"></div>
+                        <div class="burger"></div>
+                        <div class="burger"></div>
+                    </div>
+                </button>
+                <div class="dropdownContent">
+                    <a href="https://www.google.lt/">Features</a>
+                    <a href="https://www.google.lt/">About</a>
+                    <a href="https://www.google.lt/">Launch</a>
+                    <a href="https://www.google.lt/">Sign Up</a>
+                </div>
             </div>
             <div class="desktopMenu">
                 <div><a href="https://www.google.lt/">Features</a></div>
@@ -107,16 +116,14 @@
             </div>       
         </div>
 
-        <section class="flexboxRow">
+        <section class="flexboxRow2">
             <div>
                 <span>LAUNCHING SOON</span>
                 <h1> An NFT like <br> no other</h1>
                 <p>Don`t miss out on the release of our new NFT. Sign up below to receive updates when we go live.</p>
                 <a href=""><button>Sign Up</button></a>
             </div>
-            <div>
-                <img src="images/upsell-footer-image.svg" alt="graphic">
-            </div>
+            <img id="greenNft" src="images/upsell-footer-image.svg" alt="graphic">
         </section>
 
     </main>
@@ -172,7 +179,7 @@
                 </div>
             </div>
         </div>
-        <div class="flexboxRow footerCopyrightText">
+        <div class="footerCopyrightText">
             <div>© Copyright 2022 NFTTrading</div>
             <div>Launching August 2022</div>
         </div>
